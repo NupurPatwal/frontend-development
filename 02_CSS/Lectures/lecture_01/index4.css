@@ -1,0 +1,23 @@
+/* text align property */
+/* txt dexoratin property */
+
+h1 {
+  /* text-align: center; */
+  text-align: center;
+  text-decoration: palevioletred underline;
+}
+h3 {
+  text-align: end;
+  text-decoration: wavy blueviolet line-through;
+}
+p {
+  text-align: end;
+  /* text-decoration: double underline; */
+  line-height: 3.9;
+}
+h2 {
+  text-decoration: line-through;
+}
+a {
+  text-decoration: none;
+}

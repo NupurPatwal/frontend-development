@@ -1,0 +1,14 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+
+}
+h1{
+    color: #1b74b4;
+}
+.submit{
+    background-color: aqua;
+}
+#search{
+    background-color: black;
+    color: #fff;
+}

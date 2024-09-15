@@ -1,0 +1,49 @@
+body {
+  text-align: center;
+  background-color: rgba(194, 198, 202, 0.906);
+}
+
+.btn {
+  height: 200px;
+  width: 200px;
+  border: 5px solid black;
+  /* margin: auto; */
+  margin: 12px;
+  border-radius: 25%;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+}
+
+.plum {
+  background-color: plum;
+}
+
+.blue {
+  background-color: cornflowerblue;
+}
+
+.teal {
+  background-color: lightseagreen;
+}
+
+.salmon {
+  background-color: powderblue;
+}
+
+.coral {
+  background-color: lightcoral;
+}
+.yellow {
+  background-color: sandybrown;
+}
+
+.flash {
+  background-color: aliceblue;
+}
+
+.userflash {
+  background-color: black;
+}

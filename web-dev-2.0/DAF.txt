@@ -1,0 +1,8 @@
+1. folder-NAme  should be in kebab-case. eg. first-name, user-email.
+2.file_name should be in Snake_case. eg. first_Name,User_email
+3.className is always written in camelCase, eg. bubblesort,selectionSortetc.
+
+from absolute basics to the point till i get the internship. It is dot.
+
+Aaj start kr rhi hu 7 may is the tarrik. let see kb ktm hota hai.
+

@@ -1,0 +1,22 @@
+.div1 {
+  height: 20px;
+  width: 30px;
+  background-color: blanchedalmond;
+  margin-top: 10%;
+  margin: auto;
+  padding: 10px;
+  box-shadow: 2px 8px 8px #000;
+}
+
+.div2 {
+  width: 400px;
+  height: 200px;
+  background-color: #7aa874;
+  margin: 60px auto;
+  background-image: url("unsplash.jpg");
+  /* background-size: contain; */
+  text-align: center;
+  align-items: center;
+  background-size: cover;
+  /* margin-top: 300px; */
+}

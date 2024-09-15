@@ -1,0 +1,50 @@
+                    LECTURE:1 
+1. What is React?
+# React is a javascript library for creating user interfaces from components.
+# made by facebook and still maintained by facebook.
+#officaial page is react.dev.
+
+# what is a compontent : individual piece of code.
+#And that individual thing is used again and again.
+
+# jo bhi code hum react k ander likhte h is written in the formate of jsx.
+
+2. What is jsx?
+Ans: the full form of jsx is javascript extension synatx.It leds us write js driectly inside html.
+
+# Jb bhi react k ander jsx form m code likha jata h. Toh wo kya krta h internally convert hota h to js.
+
+#Code ko transpile kiya jata hai.
+
+# or ek special tool usse transpile krta hh usse khte h babble.
+
+*1. component  is like a function(reusable piece of code.).
+b. jb bhi kisi component ko invoke karate hai toh usse bolte h component ko render krna ya phir display karana.
+
+c. resuable piece of individual code.
+d. agar koi card k component banaya or wse hi multiple card components banane h toh uss same component ko render krwayege.
+
+e. THe components in react forms a hierarchy mtlb kuch component aise hote h jo dusre components k ander dekhne ko milte hai.
+
+
+for eg.                 video   
+                          |
+        thumbnail       description         Like.
+
+3. Set up the environment
+
+# npm run dev is to run the server.
+
+#in node modules we have our dependencies.
+
+
+4. Understanding React App:
+
+5.Re-write App:
+6. Our first component
+7. Import Export
+8.Writing Markup with jsx
+9. React Fragment
+10. JSX with {}
+11. structuring components
+12.Style Components

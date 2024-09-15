@@ -1,0 +1,86 @@
+                            CHAPTER 1:
+1. learn about color proper.
+2. Bg color property,
+3. color system-> rgba and hex code,
+4. text align, font weight and text decoration.
+5. line height && letter spacing.
+7. units in css (pixels)
+8. font family how to use different font family.
+
+                            CHAPTER 2:
+1. element VS universal selector.
+2.same styling multiple elements- seprated by comma.
+3. id have unique values. for one element only.
+4. class element used to style multiple elements.
+5. adjecent sibling combinator.
+6. child descendent relation. ek level down
+7.  descendent selector multiple level down.
+8. what is attribute selector.
+9. what is a pseudo class
+10. nth of type + checked active, hover,visited,unvisited ......
+11. pseudo elements... written in the form of :: first line , first letter , selection.
+12. specificity and cascading, id>class> element
+13. !Important
+14.input boxes && button doesn't inherit the properties of element
+15. different color palate: coolors, mycanva and mycolorspace.
+
+ * universal selector
+ * nested selector
+ * attribute selector
+ *Emphasis & Importance
+ *How to add external fonts.
+ *
+ 16. relative units-rt font size -> em == 1 * parent size, rem. relative to document/viewport-> vw, vh
+ 17. absolute units - mm, cm, in, px
+ 18. %unit- x% of parent size. 1% vs 1 vw
+
+                            CHAPTER 3:
+                        INTERMEDIATE CSS
+1. what is the box model in css?
+2.height, width, border, padding and margin.
+3. height & width- everything ehich is in the div element have its specific width& height.
+4. border- shorthand: border: 2px solid black;
+5. border sides: top, botton, left, right.
+6. border radius: to ensure that our square is complete circle make sure that height and width is equal.
+7. padding property: top, right, botton, left.
+8. padding- shorthand: 
+                      a. for all sides: padding:50px
+                      b. top & bottom | right and left: padding: 1px 2px
+                      c. top| left & right | bottom : padding:1px 2px 3px;
+                      d. top| right| bottom| left:
+                      padding : 1px 2px 3px 4px;
+                                  
+9. margin property: to set spacing outside of border.
+ note: border to content space --> padding|| border to border space --> margin
+10. block element: block the whole line.
+11. inline element : jinta h utna hi... kaam se kaam 
+12. in span elements height and width are ignored by browser  and padding and margin should be applied on right & left side only.
+13. inlie block- when we want elements to be in same line without changing style.
+14. relative units: % when we are using child of parent than we afre going to usethis and the proper are setted out wrt the parent.
+15. em -> properties selected wrt parent elem.
+16. rem-> properties selected wrt root element
+15. https://unpkg.com/ionicons@5.4.0/dist/ionicons.js
+
+
+                                    CHAPTER 3:
+                                    CSS NEXT STEPS
+1. alpha channel: rgb for color and rgba a for opacity how much visible. does not manipulates whole value.
+2. value of alpha channel in hex code 00-ff(00-> completey hidden ff completey visible).
+3. Opacity- 0 to 1 opacity values manipulates the all value.
+4. opacity  mein everything is hidden but not in alphachannel.
+5. tst state: transtion : property name|duration| timing function| delay
+6. transform translate: 
+                     transform : translate(50px, 50px)
+                     transform : translateX(10px)
+                     transform : translateY(10px)
+
+7. box- shadow- 2px black
+8. bg-image=url(".somepath/.imag.jpg)
+9. bg-size = contain === repeate
+/cover== cut
+/auto
+10. position-property :position of something from top right bottom and left.
+                        1. static : 
+                        2. relative
+                        3. absolute
+                        4. fixed

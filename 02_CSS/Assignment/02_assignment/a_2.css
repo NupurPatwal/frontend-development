@@ -1,0 +1,35 @@
+*{
+    text-align: center;
+}
+#mainTopic{
+color: #000fff;
+}
+
+.heading{
+    font-family:"Georgia";
+}
+.para{
+    color: white;
+    background-color: cornflowerblue;
+}
+.but button{
+    background-color: purple;
+    color: azure;
+}
+/* part B */
+.button:hover{
+    color: blue;
+    background-color: yellow;    
+}
+p:nth-child(odd) {
+    color: yellow;
+}
+
+h1::first-letter {
+    color: red;
+}
+input[type=checkbox]:checked + label {
+    color: darkgreen;
+    background-color: beige;
+}
+
