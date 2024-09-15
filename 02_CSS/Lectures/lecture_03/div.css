@@ -1,0 +1,25 @@
+/* div {
+  height: 200px;
+  width: 200px;
+  background-color: cadetblue;
+  border-width: 5px;
+  border-style: dotted;
+  border-color: brown;
+  border: 2px double red;
+} */
+
+#outer {
+  height: 350px;
+  width: 130px;
+  border: 2px solid black;
+  align-items: center;
+  position: relative;
+}
+
+.inner {
+  height: 100px;
+  width: 100px;
+  border: 2px solid black;
+  border-radius: 50px;
+  margin: 10px;
+}
