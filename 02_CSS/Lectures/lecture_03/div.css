@@ -23,3 +23,22 @@
   border-radius: 50px;
   margin: 10px;
 }
+h2 {
+  display: inline;
+}
+span {
+  /* display: block; */
+  border: 2px solid black;
+  background-color: lightcoral;
+}
+
+.new-div {
+  height: 200px;
+  width: 200px;
+  border: 2px solid black;
+  margin: auto;
+  margin-bottom: 2px;
+  background-color: palegreen;
+  /* display: inline-block; */
+  /* display: inline; */
+}
