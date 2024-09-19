@@ -1,0 +1,33 @@
+h2 {
+  color: chocolate;
+}
+span {
+  color: chocolate;
+}
+
+.card {
+  width: 350px;
+  height: 500px;
+  display: inline-block;
+  border: 2px solid black;
+  border-radius: 16px;
+
+  padding: 10px;
+  margin: 10px;
+  overflow: auto;
+}
+.card img {
+  border-radius: 8px;
+  width: 320px;
+  height: 150px;
+  margin: 10px;
+}
+.card p,
+h3 {
+  margin: 10px;
+}
+
+#pets {
+  display: flex;
+  justify-content: space-evenly;
+}
