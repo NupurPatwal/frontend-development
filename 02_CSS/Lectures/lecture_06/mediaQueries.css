@@ -1,0 +1,23 @@
+/* Exact width */
+@media (width: 360px) {
+  div {
+    color: red;
+    font-size: 25px;
+  }
+}
+
+/* Minimum width */
+@media (min-width: 35rem) {
+  div {
+    background: yellow;
+    border: 2px solid black;
+
+  }
+}
+
+/* Maximum width */
+@media (max-width: 50rem) {
+  div {
+    border: 2px solid blue;
+  }
+}
