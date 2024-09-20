@@ -1,27 +1,29 @@
-div{
-    height: 200px;
-    width: 200px;
-    border: 2px solid black;
+div {
+  height: 200px;
+  width: 200px;
+  border: 2px solid black;
 }
-#one{
-   background-color: pink;
-   position:relative;
-   z-index: 1;
+#one {
+  background-color: pink;
+  position: relative;
+  z-index: 1;
 }
-#two{
-    background-color: greenyellow ;
-    position: relative;
-    bottom: 50px;
+#two {
+  background-color: greenyellow;
+  position: relative;
+  bottom: 50px;
 }
-#three{
-    background-color: chocolate;
+#three {
+  background-color: chocolate;
 }
 
 .material-symbols-outlined {
-  font-variation-settings:
-  'FILL' 0,
-  'wght' 400,
-  'GRAD' 0,
-  'opsz' 24
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
 }
 
+h1 {
+  font-family: "Sofadi One", system-ui;
+  font-weight: 700;
+  font-style: normal;
+  display: inline;
+}
