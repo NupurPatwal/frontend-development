@@ -29,6 +29,11 @@ h2 {
   font-weight: 600;
   font-size: 3.4rem;
 }
+.heading5 {
+  /* font-weight: bold; */
+  font-size: 1.8rem;
+  font-weight: bolder;
+}
 
 h1 p {
   margin: 0;
@@ -132,5 +137,21 @@ a {
 }
 
 .card-box:hover {
-  box-shadow: 10px 10px 5px rgba(84, 83, 83, 0.5);
+  box-shadow: 10px 10px 10px 15px rgba(84, 83, 83, 0.5);
+}
+
+.img-section {
+  margin-top: 30px;
+  /* background-attachment: fixed; */
+  height: 250px;
+  /* width: 100px; */
+}
+
+.more-info-section {
+  /* Yaha pe image ko insert karege */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  padding: 6rem 0;
 }
