@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+:root {
+  --bs-dark-color: #1a1d20;
+  --bs-dark-primary: #1c1c1c;
+  --bs-main-color: #fff;
+  --bs-primary-color: #c6c6c6;
+  --secondary-color: #29a9fd;
+  --bs-supporting-color: #c850c0;
+}
+h1,
+h2,
+h3,
+h4 {
+  font-family: sans-serif;
+  color: var(--bs-dark-color);
+}
+h1 {
+  font-size: 3.8rem;
+  font-weight: bolder;
+}
+h2 {
+  line-height: 3rem;
+  font-weight: 600;
+  font-size: 3.4rem;
+}
+
+h1 p {
+  margin: 0;
+  font-weight: 500;
+  font-size: 1rem;
+  color: var(--bs-dark-primary);
+  letter-spacing: 0.07rem;
+  line-height: 1.55rem;
+  text-rendering: optimizeLegibility;
+  margin-top: 40rem;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+  font-weight: bold;
+}
+.nav-link {
+  color: var(--bs-main-color);
+}
+.nav-link:hover {
+  color: var(--secondary-color);
+}
+/* hero section */
+.hero-section .container {
+  display: grid;
+  place-content: center;
+  height: inerit;
+  /* margin-top: 3rem; */
+}
+
+.bg-main {
+  height: 80vh;
+  position: relative;
+}
+
+.bg-color {
+  background-color: var(--bs-dark-primary);
+  /* color: #c6c6c6; */
+}
+
+/* .bg-theme {
+  color: var(--bs-supporting-color);
+} */
+.hero-video {
+  height: auto;
+  width: 80%;
+}
+
+.text-ligit-grey {
+  color: var(--bs-main-color);
+}
+
+button,
+a {
+  font-size: 1.15rem;
+  letter-spacing: 0.03rem;
+  word-spacing: 0.2rem;
+}
+.custom-shape-divider-bottom-1726992021 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1726992021 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 150px;
+  transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1726992021 .shape-fill {
+  fill: #ffffff;
+}
+
+.common-heading {
+  font-size: 2.8rem;
+  font-weight: 500;
+  letter-spacing: 0.01rem !important;
+}
+.common-title {
+  margin-bottom: 4.2rem;
+}
+
+.services-section {
+  padding: 6rem 0 3rem 0 !important;
+}
+
+.icon-span {
+  width: 2.5rem;
+  height: 2.5rem;
+  background-color: var(--secondary-color);
+  color: var(--bs-main-color);
+}
+
+.card-box:hover {
+  box-shadow: 10px 10px 5px rgba(84, 83, 83, 0.5);
+}
